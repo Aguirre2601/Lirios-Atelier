@@ -49,12 +49,9 @@ Cadena de Conexión:
 
 Dirígete a la clase BaseDeDatos.cs. modifica la variable Conexion con tu instancia local de SQL Server:
 
------------------------------------------------------------------------------------------------------------------------------
 C#
 
-private SqlConnection Conexion = new SqlConnection(@"Data Source=TU_SERVIDOR;Initial Catalog=atelier_lilies;Trusted_Connection=True;");
------------------------------------------------------------------------------------------------------------------------------
-
+[ private SqlConnection Conexion = new SqlConnection(@"Data Source=TU_SERVIDOR;Initial Catalog=atelier_lilies;Trusted_Connection=True;"); ]
 
 # 💡 Valor Educativo
 Este repositorio es ideal para estudiantes o desarrolladores junior que deseen aprender:
