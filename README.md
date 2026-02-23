@@ -1,10 +1,11 @@
 # liriosAtelier_CSharp_SQL
+
 Este proyecto es una aplicación de escritorio desarrollada en C# con Windows Forms que implementa un sistema de ABM (Alta, Baja, Modificación) para la gestión de clientes de una florería.
------------------------------------------------------------------------------------------------------------------------------
 El software fue diseñado con un enfoque educativo para demostrar la separación de responsabilidades mediante el uso de clases, la validación de datos en tiempo real y la conexión a bases de datos SQL Server.
+
 -----------------------------------------------------------------------------------------------------------------------------
 
-🚀 Características
+# 🚀 Características
 
 Gestión Completa de Clientes: Permite registrar, buscar, editar y eliminar datos (DNI, Nombre, Apellido, Teléfono, Email, Modelo de producto, Estado de entrega y Total).
 
@@ -13,9 +14,10 @@ Validación Robusta: Control de entrada de datos para asegurar que los campos no
 Búsqueda Dinámica: Filtrado de registros en tiempo real mediante el número de DNI.
 
 Interfaz Modular: Uso de un formulario principal (FormInicio) que carga formularios hijos dentro de un contenedor, mejorando la experiencia de usuario.
+
 -----------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Arquitectura y Clases Principales
+# 🛠️ Arquitectura y Clases Principales
 
 El proyecto destaca por su organización lógica, facilitando la comprensión de cómo interactúan los componentes de un software profesional:
 
@@ -27,7 +29,7 @@ FormInicio.cs: Actúa como el orquestador de la aplicación, gestionando la nave
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-💻 Tecnologías Utilizadas
+# 💻 Tecnologías Utilizadas
 
 -Lenguaje: C#
 
@@ -39,7 +41,7 @@ FormInicio.cs: Actúa como el orquestador de la aplicación, gestionando la nave
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Configuración del Proyecto
+# ⚙️ Configuración del Proyecto
 
 Para ejecutar este proyecto localmente, asegúrate de seguir estos pasos:
 
@@ -53,17 +55,16 @@ Crea una tabla clientes02 con las columnas correspondientes (DNI, Apellido, Nomb
 
 Cadena de Conexión:
 
-Dirígete a la clase BaseDeDatos.cs.
------------------------------------------------------------------------------------------------------------------------------
-Modifica la variable Conexion con tu instancia local de SQL Server:
+Dirígete a la clase BaseDeDatos.cs. modifica la variable Conexion con tu instancia local de SQL Server:
+
 -----------------------------------------------------------------------------------------------------------------------------
 C#
+
 private SqlConnection Conexion = new SqlConnection(@"Data Source=TU_SERVIDOR;Initial Catalog=atelier_lilies;Trusted_Connection=True;");
 -----------------------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------------------
 
-💡 Valor Educativo
+# 💡 Valor Educativo
 Este repositorio es ideal para estudiantes o desarrolladores junior que deseen aprender:
 
 Encapsulamiento: Cómo proteger la lógica de negocio en clases separadas.
