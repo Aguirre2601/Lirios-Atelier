@@ -3,8 +3,6 @@
 Este proyecto es una aplicación de escritorio desarrollada en C# con Windows Forms que implementa un sistema de ABM (Alta, Baja, Modificación) para la gestión de clientes de una florería.
 El software fue diseñado con un enfoque educativo para demostrar la separación de responsabilidades mediante el uso de clases, la validación de datos en tiempo real y la conexión a bases de datos SQL Server.
 
------------------------------------------------------------------------------------------------------------------------------
-
 # 🚀 Características
 
 Gestión Completa de Clientes: Permite registrar, buscar, editar y eliminar datos (DNI, Nombre, Apellido, Teléfono, Email, Modelo de producto, Estado de entrega y Total).
@@ -14,8 +12,6 @@ Validación Robusta: Control de entrada de datos para asegurar que los campos no
 Búsqueda Dinámica: Filtrado de registros en tiempo real mediante el número de DNI.
 
 Interfaz Modular: Uso de un formulario principal (FormInicio) que carga formularios hijos dentro de un contenedor, mejorando la experiencia de usuario.
-
------------------------------------------------------------------------------------------------------------------------------
 
 # 🛠️ Arquitectura y Clases Principales
 
@@ -27,8 +23,6 @@ Validaciones.cs: Una clase utilitaria reutilizable que centraliza la lógica de 
 
 FormInicio.cs: Actúa como el orquestador de la aplicación, gestionando la navegación entre las distintas funcionalidades sin abrir múltiples ventanas independientes.
 
------------------------------------------------------------------------------------------------------------------------------
-
 # 💻 Tecnologías Utilizadas
 
 -Lenguaje: C#
@@ -38,8 +32,6 @@ FormInicio.cs: Actúa como el orquestador de la aplicación, gestionando la nave
 -Base de Datos: SQL Server
 
 -Librerías: System.Data.SqlClient para la comunicación con el servidor de base de datos.
-
------------------------------------------------------------------------------------------------------------------------------
 
 # ⚙️ Configuración del Proyecto
 
