@@ -49,7 +49,7 @@ Cadena de Conexión:
 
 Dirígete a la clase BaseDeDatos.cs. modifica la variable Conexion con tu instancia local de SQL Server:
 
-`  C#
+`C#`
 
 `private SqlConnection Conexion = new SqlConnection(@"Data Source=TU_SERVIDOR;Initial Catalog=atelier_lilies;Trusted_Connection=True;");`
 
